@@ -1,0 +1,85 @@
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-area{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 510px;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(137, 43, 226, 0.404);
+}
+
+.clock .hour{
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+}
+
+.clock .minute{
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+}
+
+.clock .second{
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+}
+
+.name{
+    width: 120px;
+    height: 34px;
+    text-align: center;
+    border-top: none;
+    color: white;
+    background-color: blueviolet;
+    padding-top: 10px;
+}
+
+.clock-header{
+    color: white;
+    letter-spacing: 15px;
+    margin-right: 40px
+}
+
+.midnigth{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}

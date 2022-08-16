@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: url("./lavant.jpg");
+    background-repeat:no-repeat;
+    background-size: cover
+    ;
+}
